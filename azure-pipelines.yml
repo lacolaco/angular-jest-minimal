@@ -18,8 +18,8 @@ steps:
 - script: |
     npm install -g @angular/cli
     npm install
-    ng build --prod
+    npm run build
   displayName: 'npm install and build'
 - script: |
-    ng test
+    npm run test
   displayName: 'Execute Uni Test'
